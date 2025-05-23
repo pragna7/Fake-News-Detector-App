@@ -2,11 +2,10 @@ import streamlit as st
 import pickle
 import os
 
-# Ensure you're using the correct relative paths
-model_path = os.path.join(os.path.dirname(__file__), "model.pkl")
-vectorizer_path = os.path.join(os.path.dirname(__file__), "vectorizer.pkl")
+BASE_DIR = os.path.dirname(__file__)
+model_path = os.path.join(BASE_DIR, "model.pkl")
+vectorizer_path = os.path.join(BASE_DIR, "vectorizer.pkl")
 
-# Load model and vectorizer
 model = pickle.load(open(model_path, "rb"))
 vectorizer = pickle.load(open(vectorizer_path, "rb"))
 
@@ -21,4 +20,5 @@ if st.button("Predict"):
         vec = vectorizer.transform([news])
         pred = model.predict(vec)
         st.success("✅ This news is Real." if pred[0] == "REAL" else "🚨 This news is Fake.")
+
 

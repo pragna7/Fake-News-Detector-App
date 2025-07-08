@@ -7,8 +7,8 @@ A Fake News Detector in Python uses NLP techniques and machine learning models l
 ````markdown
 # 📰 Fake News Detection using Machine Learning
 
-This project implements a **Fake News Detector** using **Python**, **Scikit-learn**, and **Streamlit**.
- It uses a **Passive Aggressive Classifier** trained on real and fake news datasets to classify news articles as **REAL** or **FAKE**.
+This project implements a Fake News Detector using Python, Scikit-learn, and Streamlit.
+ It uses a Passive Aggressive Classifier trained on real and fake news datasets to classify news articles as **REAL** or **FAKE**.
 
 ---
 

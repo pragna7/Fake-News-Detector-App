@@ -28,16 +28,13 @@ This project implements a Fake News Detector using Python, Scikit-learn, and Str
 ---
 
 ## 📂 Dataset
-
 The dataset includes two CSV files:
 
 - `True.csv`: Articles labeled as **REAL**
 - `Fake.csv`: Articles labeled as **FAKE**
 
 Both datasets are merged and used to train the model.
-
 ---
-
 ## 📌 Features
 
 - Text preprocessing using **TF-IDF Vectorization**
@@ -45,7 +42,6 @@ Both datasets are merged and used to train the model.
 - Accuracy evaluation of the model
 - Model and vectorizer saved using **pickle**
 - Streamlit-based web interface for user interaction
-
 ---
 
 ## 🛠️ Installation
@@ -90,7 +86,6 @@ The model achieved an accuracy of approximately:
 ```
 > 93% on test data
 ```
-
 ---
 
 ## Example-

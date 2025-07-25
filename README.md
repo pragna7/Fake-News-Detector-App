@@ -18,6 +18,7 @@ Aggressive: If the prediction is wrong, it aggressively updates the model to fix
 Fast and efficient for high-dimensional text data.
 Works well with TF-IDF vectors.
 Can handle streaming or dynamically changing data if extended.
+TF-IDF stands for Term Frequency–Inverse Document Frequency. It's a numerical value that reflects how important a word is to a document in a collection of documents (called a corpus).
 
 ````markdown
 # 📰 Fake News Detection using Machine Learning

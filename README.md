@@ -112,24 +112,19 @@ The model achieved an accuracy of approximately:
 ```
 
 ---
-
 ## 💡 Future Improvements
 
 * Add confusion matrix and F1-score
 * Support news headline and title-based classification
 * Add live news article scraping and classification
 * Deploy to Heroku or Render
-
 ---
 
 ## 🤝 Contributions
 
 Feel free to fork the repo, create a branch, and submit a pull request
-
 ## 📄 License
-
 This project is licensed under the [MIT License](LICENSE).
-
 ### ✅ Also create `requirements.txt`:
 pandas
 scikit-learn

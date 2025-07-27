@@ -25,9 +25,7 @@ TF-IDF stands for Term Frequency–Inverse Document Frequency. It's a numerical 
 
 This project implements a Fake News Detector using Python, Scikit-learn, and Streamlit.
  It uses a Passive Aggressive Classifier trained on real and fake news datasets to classify news articles as **REAL** or **FAKE**.
-
 ---
-
 ## 📂 Dataset
 The dataset includes two CSV files:
 
@@ -37,7 +35,6 @@ The dataset includes two CSV files:
 Both datasets are merged and used to train the model.
 ---
 ## 📌 Features
-
 - Text preprocessing using **TF-IDF Vectorization**
 - Binary classification using **PassiveAggressiveClassifier**
 - Accuracy evaluation of the model
@@ -52,13 +49,10 @@ Both datasets are merged and used to train the model.
 git clone https://github.com/yourusername/fake-news-detector.git
 cd fake-news-detector
 ````
-
 ### 2. Install dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 3. Train the model (optional if `model.pkl` is already provided)
 
 ```bash
